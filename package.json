@@ -1,10 +1,10 @@
 {
-  "name": "ats-app",
-  "version": "0.0.0",
+  "name": "face-trace",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "nodemon app.js",
-    "build": "pip install --upgrade -r Py-Scripts/requirements.txt"
+    "build": "npm run build"
   },
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^2.1.2",
