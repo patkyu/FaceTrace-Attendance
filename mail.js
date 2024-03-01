@@ -7,7 +7,7 @@ class MailSender{
     message;
     
     constructor(to, sub, msg){
-        this.mailfrom = 'facetraceattendancesystem@gmail.com';
+        this.mailfrom = 'ssmartattendance@gmail.com';
         this.tomail = to;
         this.sub = sub;
         this.message = msg;
@@ -15,8 +15,8 @@ class MailSender{
         this.gmail = this.nodemailer.createTransport({
             service: 'gmail',
             auth: {
-              user: 'facetraceattendancesystem@gmail.com',
-              pass: 'group8bsit4-1n'
+                user: 'ssmartattendance@gmail.com',
+                pass: 'hkxj xthh ocbf wbtv'
             }
           });
         console.log('Mail obj created')

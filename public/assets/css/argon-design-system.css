@@ -7312,7 +7312,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #c8f9db !important;
+    background-color: #96bcfd !important;
 }
 
 a.bg-primary:hover,
@@ -10917,11 +10917,11 @@ button.bg-lighter:focus {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(35deg, #c8f9db 0, #bceae3 100%) !important;
+    background: linear-gradient(35deg, #96bcfd 0, #bceae3 100%) !important;
 }
 
 .bg-gradient-secondary {
-  background: linear-gradient(35deg, #c8f9db 0, #bceae3 100%) !important;
+    background: linear-gradient(35deg, #96bcfd 0, #bceae3 100%) !important;
 }
 
 .bg-gradient-success {
@@ -11216,7 +11216,7 @@ button.section-darker:focus {
 }
 
 .bg-gradient-secondary {
-  background: linear-gradient(35deg, #c8f9db 0, #bceae3 100%) !important;
+    background: linear-gradient(35deg, #96bcfd 0, #bceae3 100%) !important;
 }
 
 .bg-gradient-success {
