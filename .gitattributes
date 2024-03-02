@@ -1,2 +1,7 @@
 Py-Scripts/* filter=lfs diff=lfs merge=lfs -text
 Py-Scripts/students/journal/* filter=lfs diff=lfs merge=lfs -text
+Py-Scripts/app.py filter=lfs diff=lfs merge=lfs -text
+Py-Scripts/main.py filter=lfs diff=lfs merge=lfs -text
+Py-Scripts/mongo.py filter=lfs diff=lfs merge=lfs -text
+Py-Scripts/requirements.txt filter=lfs diff=lfs merge=lfs -text
+Py-Scripts/students/journal/deletepls filter=lfs diff=lfs merge=lfs -text
