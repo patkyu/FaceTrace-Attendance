@@ -20,7 +20,11 @@ var classrouter = require('./routes/classroom')
 
 var app = express();
 
-mongoose.connect('mongodb://localhost:27017/attendance_portal',{useNewUrlParser: true, useUnifiedTopology: true})
+const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/attendance_portal';
+
+mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('MongoDB connected'))
+  .catch(err => console.log('MongoDB connection error:', err));
 
 require('./config/passport');
 
